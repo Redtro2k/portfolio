@@ -34,8 +34,8 @@
           <p class="text-sm text-yellow-700">
             Successfully Created
             {{ ' ' }}
-            <span class="font-medium text-yellow-700 underline hover:text-yellow-600"
-              >This Portfolio is Created by me, and without using any templates.</span
+            <span class="font-medium text-yellow-700 underline hover:text-yellow-600">
+              This Portfolio is Created by me, and without using any templates.</span
             >
           </p>
           <div class="mt-4 pl-4">

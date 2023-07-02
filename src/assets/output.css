@@ -865,6 +865,34 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\.\/assets\/desktop-34d5cee8\.png\'\)\] {
+  background-image: url('./assets/desktop-34d5cee8.png');
+}
+
+.bg-\[url\(\'\.\/assets\/desktop-34d5cee8\.jpg\'\)\] {
+  background-image: url('./assets/desktop-34d5cee8.jpg');
+}
+
+.bg-\[url\(\'\/assets\/desktop-34d5cee8\.jpg\'\)\] {
+  background-image: url('/assets/desktop-34d5cee8.jpg');
+}
+
+.bg-\[url\(\'\/assets\/desktop\.jpg\'\)\] {
+  background-image: url('/assets/desktop.jpg');
+}
+
+.bg-\[url\(\'\.src\/assets\/desktop\.jpg\'\)\] {
+  background-image: url('.src/assets/desktop.jpg');
+}
+
+.bg-\[url\(\'\.\/src\/assets\/desktop\.jpg\'\)\] {
+  background-image: url('./src/assets/desktop.jpg');
+}
+
+.bg-\[url\(\'desktop-34d5cee8\.jpg\'\)\] {
+  background-image: url('desktop-34d5cee8.jpg');
+}
+
 .from-cyan-500 {
   --tw-gradient-from: #06b6d4 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(6 182 212 / 0) var(--tw-gradient-to-position);

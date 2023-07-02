@@ -8,6 +8,7 @@ import EducationList from './components/EducationList.vue'
   <!-- <div class="bg-gray-100 h-screen bg-gradient-to-r from-gray-100 to-slate-100"> -->
   <!-- <div class="bg-[url('src/assets/desktop.jpg')]"> -->
   <div class="bg-[url('desktop-34d5cee8.jpg')]">
+    <!-- <img src="./assets/desktop.jpg" class="saturate-50 h-1/2 drop-shadow-md" alt="" /> -->
 
     <TabGroup :defaultIndex="0">
       <div class="mx-48 h-screen">
@@ -99,6 +100,7 @@ import EducationList from './components/EducationList.vue'
             </Tab>
           </TabList>
         </div>
+
         <!-- main content -->
         <TabList>
           <TabPanels class="mx-24">

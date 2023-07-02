@@ -7,6 +7,7 @@
 <template>
   <!-- <div class="bg-gray-100 h-screen bg-gradient-to-r from-gray-100 to-slate-100"> -->
     <div class="bg-[url('src/assets/desktop.jpg')]">
+      <img src="./assets/desktop.jpg" class="sr-only"/>
     <TabGroup :defaultIndex="0">
       <div class="mx-48 h-screen">
         <!-- navigation -->

@@ -100,7 +100,7 @@
               <div class="bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md shadow-md px-28 py-10">
                 <div class="flex items-center">
                   <div class="m-4 bg-slate-200 rounded-md drop-shadow-md">
-                    <img src="./assets/Darwin Llacuna.jpg" alt="" class=" h-96 rotate-3 rounded-md">
+                    <img src="./assets/DarwinLlacuna.jpg" alt="" class=" h-96 rotate-3 rounded-md">
                   </div>
                   <div class="flex-1">
                     <div class="mt-4 ml-8">

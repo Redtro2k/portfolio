@@ -106,8 +106,8 @@ import EducationList from './components/EducationList.vue'
           <TabPanels class="mx-24">
             <!-- Home -->
             <TabPanel>
-              <div class="flex items-center bg-gradient-to-r from-indigo-500 via-cyran-500 to-sky-500 rounded-full">
-                <img src="./assets/images.png" class="saturate-50 h-1/2 drop-shadow-md" alt="" />
+              <div class="flex items-center bg-gradient-to-r from-indigo-500 via-cyran-500 to-sky-500 rounded-full mt-24">
+                <img src="./assets/images.png" class="saturate-50 h-[30rem] drop-shadow-md" alt="" />
                 <div class="mx-4 mt-14 max-w-md text-left font-belanosima space-y-2">
                   <div class="border-t-8 w-32">
                     <h1 class="sr-only">Darwin llacuna</h1>
@@ -246,7 +246,9 @@ import EducationList from './components/EducationList.vue'
                 <div>
                   <h1 class="font-figree text-5xl font-semibold text-amber-500">Education</h1>
                   <div class="bg-amber-100 mt-4 border-l-4 border-amber-500 px-4 py-2 drop-shadow-md">
-                    <p class="text-sm max-w-lg font-figree prose-neutral">This is the school I graduated from, where I earned a Bachelor of Science in Information Technology. I have many fond memories of my college life that I will never forget.</p>
+                    <p class="text-sm max-w-lg font-figree prose-neutral">
+                      STI College is a Philippine school system known for its educational programs in information technology and business. STI was founded as the Systems Technology Institute College in 1983 by four entrepreneurs: Augusto C. Lagman, Herman T. Gamboa, Benjamin A. Santos, and Edgar H. Sarte. The founders established the institute to provide training in programming for those interested in becoming computer professionals. Aside from its computer programs, STI is known for developing job-ready students. In its early years, it had a Guaranteed Hire Program that gives STI graduates the advantage of being employed by any of the four founders or by contact companies of the school.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -262,7 +264,7 @@ import EducationList from './components/EducationList.vue'
                     <CogIcon class="h-16 w-16 text-gray-500 animate-spin" />
                   </div>
                   <h1 class="font-extrabold text-3xl text-gray-500 font-figree">
-                    Under Developing
+                    Under Development
                   </h1>
                 </div>
               </div>
@@ -277,7 +279,7 @@ import EducationList from './components/EducationList.vue'
                     <CogIcon class="h-16 w-16 text-gray-500 animate-spin" />
                   </div>
                   <h1 class="font-extrabold text-3xl text-gray-500 font-figree">
-                    Under Developing
+                    Under Development
                   </h1>
                 </div>
               </div>
@@ -292,7 +294,7 @@ import EducationList from './components/EducationList.vue'
                     <CogIcon class="h-16 w-16 text-gray-500 animate-spin" />
                   </div>
                   <h1 class="font-extrabold text-3xl text-gray-500 font-figree">
-                    Under Developing
+                    Under Development
                   </h1>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 <script setup>
   import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-  import { ArrowsPointingInIcon, UserIcon } from '@heroicons/vue/24/solid'
+  import { ArrowsPointingInIcon, CogIcon } from '@heroicons/vue/24/solid'
+  import Update from './components/Update.vue'
 
 </script>
 <template>
@@ -151,6 +152,53 @@
                   </div>
                 </div>
               </div>
+            </TabPanel>
+            <!-- Education -->
+            <TabPanel>
+              <div class="bg-gradient-to-r from-slate-800 to-slate-700 flex justify-center items-center py-8 rounded-md">
+                <div>
+                    <div class="flex justify-center">
+                      <CogIcon class="h-16 w-16 text-gray-500 animate-spin"/>
+                    </div>
+                    <h1 class="font-extrabold text-3xl text-gray-500 font-figree">Under Developing</h1>
+                  </div>
+              </div>
+            </TabPanel>
+            <!-- Skill -->
+            <TabPanel>
+              <div class="bg-gradient-to-r from-slate-800 to-slate-700 flex justify-center items-center py-8 rounded-md">
+                <div>
+                    <div class="flex justify-center">
+                      <CogIcon class="h-16 w-16 text-gray-500 animate-spin"/>
+                    </div>
+                    <h1 class="font-extrabold text-3xl text-gray-500 font-figree">Under Developing</h1>
+                  </div>
+              </div>
+            </TabPanel>
+            <!-- Work experience -->
+            <TabPanel>
+              <div class="bg-gradient-to-r from-slate-800 to-slate-700 flex justify-center items-center py-8 rounded-md">
+                <div>
+                    <div class="flex justify-center">
+                      <CogIcon class="h-16 w-16 text-gray-500 animate-spin"/>
+                    </div>
+                    <h1 class="font-extrabold text-3xl text-gray-500 font-figree">Under Developing</h1>
+                  </div>
+              </div>
+            </TabPanel>
+            <!-- Workstation -->
+            <TabPanel>
+              <div class="bg-gradient-to-r from-slate-800 to-slate-700 flex justify-center items-center py-8 rounded-md">
+                <div>
+                    <div class="flex justify-center">
+                      <CogIcon class="h-16 w-16 text-gray-500 animate-spin"/>
+                    </div>
+                    <h1 class="font-extrabold text-3xl text-gray-500 font-figree">Under Developing</h1>
+                  </div>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <Update/>
             </TabPanel>
           </TabPanels>
         </TabList>

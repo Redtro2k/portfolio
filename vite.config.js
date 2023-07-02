@@ -5,10 +5,11 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: '/Portfolio-app/',
   plugins: [
     vue(),
   ],
+    base: '/Portfolio-app/',
+
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

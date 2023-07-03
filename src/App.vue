@@ -1,14 +1,15 @@
 <script setup>
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-import { ArrowsPointingInIcon, CogIcon } from '@heroicons/vue/24/solid'
+import { ArrowsPointingInIcon, CogIcon, ChevronDoubleUpIcon } from '@heroicons/vue/24/solid'
 import Update from './components/Update.vue'
 import EducationList from './components/EducationList.vue'
+import TechnicalSkill from './components/TechnicalSkill.vue'
 </script>
 <template>
   <!-- <div class="bg-gray-100 h-screen bg-gradient-to-r from-gray-100 to-slate-100"> -->
   <!-- <div class="bg-[url('src/assets/desktop.jpg')]"> -->
   <div class="bg-[url('desktop-34d5cee8.jpg')]">
-    <img src="./assets/desktop.jpg" class="saturate-50 h-1/2 drop-shadow-md sr-only" alt="" />
+    <img src="./assets/desktop.jpg" class="saturate-50 h-1/2 drop-shadow-md sr-only"/>
 
     <TabGroup :defaultIndex="0">
       <div class="mx-48 h-screen">
@@ -95,6 +96,17 @@ import EducationList from './components/EducationList.vue'
                     !selected
                 }"
               >
+                Certifi & Projects
+              </button>
+            </Tab>
+            <Tab as="template" v-slot="{ selected }">
+              <button
+                :class="{
+                  'font-bold text-emerald-300 border-b-2 border-emerald-300': selected,
+                  'hover:text-emerald-200 ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300':
+                    !selected
+                }"
+              >
                 Updates
               </button>
             </Tab>
@@ -107,7 +119,7 @@ import EducationList from './components/EducationList.vue'
             <!-- Home -->
             <TabPanel>
               <div class="flex items-center bg-gradient-to-r from-indigo-500 via-cyran-500 to-sky-500 rounded-full mt-24">
-                <img src="./assets/images.png" class="saturate-50 h-[30rem] drop-shadow-md" alt="" />
+                <img src="./assets/images.png" class="saturate-50 lx:h-[30rem] 2xl:h-xl drop-shadow-md" alt="" />
                 <div class="mx-4 mt-14 max-w-md text-left font-belanosima space-y-2">
                   <div class="border-t-8 w-32">
                     <h1 class="sr-only">Darwin llacuna</h1>
@@ -124,6 +136,7 @@ import EducationList from './components/EducationList.vue'
                     >I am a fresh graduate student who graduated from STI College Fairview. I have
                     experience creating full-stack websites such as CMS and Portal.
                   </span>
+                  <span class="text-sm text-gray-300">I will do my best to use my skills to help grow your company. I am also committed to improving myself and maximizing my capabilities. It has been an honor to work with you. I would be honored to have the chance to be one of your candidates.</span>
                   <ul class="flex space-x-4">
                     <li>
                       <a href="https://www.facebook.com/darwin.llacuna">
@@ -256,16 +269,27 @@ import EducationList from './components/EducationList.vue'
             </TabPanel>
             <!-- Skill -->
             <TabPanel>
-              <div
-                class="bg-gradient-to-r from-slate-800 to-slate-700 flex justify-center items-center py-8 rounded-md"
-              >
-                <div>
-                  <div class="flex justify-center">
-                    <CogIcon class="h-16 w-16 text-gray-500 animate-spin" />
-                  </div>
-                  <h1 class="font-extrabold text-3xl text-gray-500 font-figree">
-                    Under Development
-                  </h1>
+              <h2 class="text-4xl font-figree text-gray-100 mb-4">Technical Skill <span class="text-xs bg-indigo-600 py-0.5 px-2 rounded-xl">most used <strong>Laravel</strong> and <strong>TailwindCSS</strong></span></h2>
+              <TechnicalSkill/>
+              <h1 class="text-4xl font-figree text-gray-100 my-4">Specialize Skill</h1>
+              <div class="flex justify-between space-x-4">
+                <div class="bg-gradient-to-r from-cyan-500 to-blue-500 p-2 rounded-md border-b-4 border-l-4 border-cyan-600 font-figree text-sm text-slate-100 shadow-md">
+                  <ul class="space-y-2 leading-4 pt-2">
+                    <li>Proficient in: Java, JavaScript, and SQL, MYSQL, PHP, C#. included Android and asp .NET WEB API.</li>
+                    <li>Experience with: React, Vue.js, Node.js, Laravel, and Bootstrap and Tailwind CSS frameworks.</li>
+                    <li>Knowledge of: HTML, CSS, and JavaScript (ES6+)</li>
+                    <li>had Experienced a bit of Docker</li>
+                    <li>Proficient in using GitHub and a bit knowledge agile methodology.</li>
+                  </ul>
+                </div>
+                <div class="bg-gradient-to-r from-blue-500 to-cyan-500 p-2 rounded-md border-b-4 border-r-4 border-cyan-600 font-figree text-sm text-slate-100 shadow-md">
+                  <ul class="space-y-2 leading-4 pt-2">
+                    <li>Experience with RESTful API development and integrations using Node.js/PHP back-end.</li>
+                    <li>I have had a significant amount of experience implementing packages using Node.js.</li>
+                    <li>I have experience in deploying websites, including maintaining the associated databases.</li>
+                    <li>Strong database design and management skills, including MySQL and a bit knowledge PostgreSQL.</li>
+                    <li>Understand the SOLID principles method.</li>
+                  </ul>
                 </div>
               </div>
             </TabPanel>
@@ -278,7 +302,7 @@ import EducationList from './components/EducationList.vue'
                   <div class="flex justify-center">
                     <CogIcon class="h-16 w-16 text-gray-500 animate-spin" />
                   </div>
-                  <h1 class="font-extrabold text-3xl text-gray-500 font-figree">
+                  <h1 class="font-semibold text-3xl text-gray-500 font-figree">
                     Under Development
                   </h1>
                 </div>
@@ -293,12 +317,28 @@ import EducationList from './components/EducationList.vue'
                   <div class="flex justify-center">
                     <CogIcon class="h-16 w-16 text-gray-500 animate-spin" />
                   </div>
-                  <h1 class="font-extrabold text-3xl text-gray-500 font-figree">
+                  <h1 class="font-semibold text-3xl text-gray-500 font-figree">
                     Under Development
                   </h1>
                 </div>
               </div>
             </TabPanel>
+            <!-- Certfi & Projects -->
+            <TabPanel>
+              <div
+                class="bg-gradient-to-r from-slate-800 to-slate-700 flex justify-center items-center py-8 rounded-md"
+              >
+                <div>
+                  <div class="flex justify-center">
+                    <CogIcon class="h-16 w-16 text-gray-500 animate-spin" />
+                  </div>
+                  <h1 class="font-semibold text-3xl text-gray-500 font-figree">
+                    Under Development
+                  </h1>
+                </div>
+              </div>
+            </TabPanel>
+            <!-- Update -->
             <TabPanel>
               <Update />
             </TabPanel>

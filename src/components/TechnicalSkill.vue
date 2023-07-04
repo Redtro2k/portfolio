@@ -151,6 +151,15 @@
             <span class="font-extrabold font-figree text-teal-500 text-center">Intermediate</span>
           </div>
         </div>
+        <div class="bg-indigo-50 py-2 inline-block border-b-4 border-indigo-500 rounded-md">
+          <div class="flex justify-center">
+            <img src="https://raw.githubusercontent.com/campusMVP/dotnetCoreLogoPack/master/ASP.NET%20Core/Bitmap%20RGB/Bitmap-BIG_ASP.NET-Core-Logo_2colors_Square_RGB.png" class="h-24 ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"/>
+          </div>
+          <div class="flex justify-center mt-2">
+            <ChevronDoubleUpIcon class="h-5 w-5 font-extrabold font-figree text-indigo-600"/>
+            <span class="font-extrabold font-figree text-indigo-500 text-center">Beginner</span>
+          </div>
+        </div>
       </div>
 </template>
 <script setup>

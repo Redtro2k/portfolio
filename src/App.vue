@@ -118,6 +118,7 @@ import TechnicalSkill from './components/TechnicalSkill.vue'
           <TabPanels class="mx-24">
             <!-- Home -->
             <TabPanel>
+
               <div class="flex items-center bg-gradient-to-r from-indigo-500 via-cyran-500 to-sky-500 rounded-full mt-24">
                 <img src="./assets/images.png" class="saturate-50 lx:h-[30rem] 2xl:h-xl drop-shadow-md" alt="" />
                 <div class="mx-4 mt-14 max-w-md text-left font-belanosima space-y-2">

@@ -22,7 +22,7 @@
           </div>
           <div class="flex justify-center mt-2">
             <ChevronDoubleUpIcon class="h-5 w-5 font-extrabold font-figree text-orange-600"/>
-            <span class="font-extrabold font-figree text-orange-500 text-center">Intermediate</span>
+            <span class="font-extrabold font-figree text-orange-500 text-center">Master</span>
           </div>
         </div>
         <div class="bg-orange-50 py-2 inline-block border-b-4 border-orange-500 rounded-md">
@@ -158,6 +158,24 @@
           <div class="flex justify-center mt-2">
             <ChevronDoubleUpIcon class="h-5 w-5 font-extrabold font-figree text-indigo-600"/>
             <span class="font-extrabold font-figree text-indigo-500 text-center">Beginner</span>
+          </div>
+        </div>
+        <div class="bg-neutral-50 py-2 inline-block border-b-4 border-neutral-500 rounded-md">
+          <div class="flex justify-center">
+            <img src="https://www.brandinglosangeles.com/wp-content/uploads/WordPress.svg.png" class="p-2 h-24 ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"/>
+          </div>
+          <div class="flex justify-center mt-2">
+            <ChevronDoubleUpIcon class="h-5 w-5 font-extrabold font-figree text-neutral-600"/>
+            <span class="font-extrabold font-figree text-neutral-500 text-center">Intermediate</span>
+          </div>
+        </div>
+        <div class="bg-neutral-50 py-2 inline-block border-b-4 border-yellow-500 rounded-md">
+          <div class="flex justify-center">
+            <img src="https://logodownload.org/wp-content/uploads/2019/10/python-logo.png" class="h-24 ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"/>
+          </div>
+          <div class="flex justify-center mt-2">
+            <ChevronDoubleUpIcon class="h-5 w-5 font-extrabold font-figree text-yellow-600"/>
+            <span class="font-extrabold font-figree text-yellow-500 text-center">Beginner</span>
           </div>
         </div>
       </div>

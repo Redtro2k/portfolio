@@ -4,6 +4,7 @@ import { ArrowsPointingInIcon, CogIcon, ChevronDoubleUpIcon } from '@heroicons/v
 import Update from './components/Update.vue'
 import EducationList from './components/EducationList.vue'
 import TechnicalSkill from './components/TechnicalSkill.vue'
+import Experience from './components/Experience.vue'
 </script>
 <template>
   <!-- <div class="bg-gray-100 h-screen bg-gradient-to-r from-gray-100 to-slate-100"> -->
@@ -281,6 +282,7 @@ import TechnicalSkill from './components/TechnicalSkill.vue'
                     <li>Knowledge of: HTML, CSS, and JavaScript (ES6+)</li>
                     <li>had Experienced a bit of Docker</li>
                     <li>Proficient in using GitHub and a bit knowledge agile methodology.</li>
+                    <li>Knowledgeable in Figma and adobe UX design.</li>
                   </ul>
                 </div>
                 <div class="bg-gradient-to-r from-blue-500 to-cyan-500 p-2 rounded-md border-b-4 border-r-4 border-cyan-600 font-figree text-sm text-slate-100 shadow-md">
@@ -290,24 +292,14 @@ import TechnicalSkill from './components/TechnicalSkill.vue'
                     <li>I have experience in deploying websites, including maintaining the associated databases.</li>
                     <li>Strong database design and management skills, including MySQL and a bit knowledge PostgreSQL.</li>
                     <li>Understand the SOLID principles method.</li>
+                    <li>Can troubleshoot, devices, like laptop, and PC.</li>
                   </ul>
                 </div>
               </div>
             </TabPanel>
             <!-- Work experience -->
             <TabPanel>
-              <div
-                class="bg-gradient-to-r from-slate-800 to-slate-700 flex justify-center items-center py-8 rounded-md"
-              >
-                <div>
-                  <div class="flex justify-center">
-                    <CogIcon class="h-16 w-16 text-gray-500 animate-spin" />
-                  </div>
-                  <h1 class="font-semibold text-3xl text-gray-500 font-figree">
-                    Under Development
-                  </h1>
-                </div>
-              </div>
+              <Experience />
             </TabPanel>
             <!-- Workstation -->
             <TabPanel>

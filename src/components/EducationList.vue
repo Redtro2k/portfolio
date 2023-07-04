@@ -47,9 +47,10 @@
   
   <script setup>
   const schools = [
-    { school_name: 'STI College Fairview', date: '2018 - Current', address: '20-d Regalado Avenue, Corner Bronx, Quezon City, 651-8511 Metro Manila', course: 'Bachelor of Science in Information Technology', finish: 'Finished' },
-    { school_name: 'Bagong Silangan High School', date: '2018 - Current', address: 'J. P. Rizal, Quezon City, Metro Manila', course: 'Information and communications technology', finish: 'Finished' },
-    { school_name: 'Bagong Silangan Elementary School', date: '2018 - Current', address: '1119 Gen. Villamor, St, Quezon City, Rizal', course: 'Elementary', finish: 'Finished' },
+    { school_name: 'STI College Fairview', date: '2018 - 2023', address: '20-d Regalado Avenue, Corner Bronx, Quezon City, 651-8511 Metro Manila', course: 'Bachelor of Science in Information Technology', finish: 'Finished' },
+    { school_name: 'STI College Fairview', date: '2016 - 2018', address: '20-d Regalado Avenue, Corner Bronx, Quezon City, 651-8511 Metro Manila', course: 'IT in Mobile App and Web Development', finish: 'Finished' },
+    { school_name: 'Bagong Silangan High School', date: '2015 - 2016', address: 'J. P. Rizal, Quezon City, Metro Manila', course: 'Information and communications technology', finish: 'Finished' },
+    { school_name: 'Bagong Silangan Elementary School', date: '2008 - 2015', address: '1119 Gen. Villamor, St, Quezon City, Rizal', course: 'Elementary', finish: 'Finished' },
     // More people...
   ]
   </script>

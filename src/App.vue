@@ -1,10 +1,12 @@
 <script setup>
-import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
+import { TabGroup, TabList, Tab, TabPanels, TabPanel, TransitionRoot } from '@headlessui/vue'
 import { ArrowsPointingInIcon, CogIcon, ChevronDoubleUpIcon } from '@heroicons/vue/24/solid'
 import Update from './components/Update.vue'
 import EducationList from './components/EducationList.vue'
 import TechnicalSkill from './components/TechnicalSkill.vue'
 import Experience from './components/Experience.vue'
+import { ref } from 'vue'
+const isOpen = ref(false)
 </script>
 <template>
   <!-- <div class="bg-gray-100 h-screen bg-gradient-to-r from-gray-100 to-slate-100"> -->
@@ -119,7 +121,6 @@ import Experience from './components/Experience.vue'
           <TabPanels class="mx-24">
             <!-- Home -->
             <TabPanel>
-
               <div class="flex items-center bg-gradient-to-r from-indigo-500 via-cyran-500 to-sky-500 rounded-full mt-24">
                 <img src="./assets/images.png" class="saturate-50 lx:h-[30rem] 2xl:h-xl drop-shadow-md" alt="" />
                 <div class="mx-4 mt-14 max-w-md text-left font-belanosima space-y-2">
@@ -253,18 +254,30 @@ import Experience from './components/Experience.vue'
             </TabPanel>
             <!-- Education -->
             <TabPanel>
-              <div class="flex space-x-8 items-center">
+              <div class="flex space-x-8 items-start">
                 <div class="bg-amber-500 rounded-lg inline-block">
                   <img src="./assets/fairview.jpg" class="h-72 rounded-md shadow-md rotate-6"/>
                   <div class="bg-white rounded-b-md"><small class="text-amber-800 font-figma font-bold px-2">The actual building of sti college fairview</small></div>
                 </div>
                 <div>
                   <h1 class="font-figree text-5xl font-semibold text-amber-500">Education</h1>
-                  <div class="bg-amber-100 mt-4 border-l-4 border-amber-500 px-4 py-2 drop-shadow-md">
-                    <p class="text-sm max-w-lg font-figree prose-neutral">
-                      STI College is a Philippine school system known for its educational programs in information technology and business. STI was founded as the Systems Technology Institute College in 1983 by four entrepreneurs: Augusto C. Lagman, Herman T. Gamboa, Benjamin A. Santos, and Edgar H. Sarte. The founders established the institute to provide training in programming for those interested in becoming computer professionals. Aside from its computer programs, STI is known for developing job-ready students. In its early years, it had a Guaranteed Hire Program that gives STI graduates the advantage of being employed by any of the four founders or by contact companies of the school.
-                    </p>
-                  </div>
+                  <button @click.prevent="isOpen = !isOpen" class="text-white font-semibold text-ms mt-2 font-figree bg-yellow-500 px-2 rounded-md shadow-lg">
+                    {{ isOpen ? 'Close' : 'View Info' }}
+                  </button>
+                  <TransitionRoot :show="isOpen"
+                    enter="transition-opacity duration-75"
+                    enter-from="opacity-0"
+                    enter-to="opacity-100"
+                    leave="transition-opacity duration-150"
+                    leave-from="opacity-100"
+                    leave-to="opacity-0"
+                      >
+                    <div class="bg-amber-100 mt-4 border-l-4 border-amber-500 px-4 py-2 drop-shadow-md transition duration-150 ease-in-out">
+                      <p class="text-sm max-w-lg font-figree prose-neutral">
+                        STI College is a Philippine school system known for its educational programs in information technology and business. STI was founded as the Systems Technology Institute College in 1983 by four entrepreneurs: Augusto C. Lagman, Herman T. Gamboa, Benjamin A. Santos, and Edgar H. Sarte. The founders established the institute to provide training in programming for those interested in becoming computer professionals. Aside from its computer programs, STI is known for developing job-ready students. In its early years, it had a Guaranteed Hire Program that gives STI graduates the advantage of being employed by any of the four founders or by contact companies of the school.
+                      </p>
+                    </div>
+                  </TransitionRoot>
                 </div>
               </div>
               <EducationList class="mt-8"/>

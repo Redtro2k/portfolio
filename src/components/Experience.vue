@@ -29,7 +29,6 @@
                    <small class="bg-gradient-to-r from-indigo-500 to-indigo-500 px-1.5 rounded-md text-white">Nodejs</small>
                    <small class="bg-gradient-to-r from-indigo-500 to-indigo-500 px-1.5 rounded-md text-white">MYSQL</small>
                    <small class="bg-gradient-to-r from-rose-500 to-rose-600 px-1.5 rounded-md text-white">2018 – 2017</small>
-
                 </div>
                 <p class="text-sm max-w-2xl text-amber-100">
                     I am a full stack web developer at Heylo Corp, specializing in developing chat applications with real-time translation capabilities. My experience has given me a deep understanding of the importance of seamless communication, particularly in a global context where language barriers can pose significant challenges. I am committed to staying up to date with the latest advancements in the field to continue delivering high-quality solutions that meet the evolving needs of our clients.

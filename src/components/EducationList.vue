@@ -24,7 +24,7 @@
           <tbody class="divide-y divide-amber-300 bg-amber-200">
             <tr v-for="school in schools" :key="school.school_name">
               <td class="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-amber-900 sm:w-auto sm:max-w-none sm:pl-6">
-                {{ school.school_name }}
+                {{ school.school_name }} <sup v-if="school.sub" class="ml-0.5 text-xs bg-teal-500 px-2 py-0.5 font-semibold text-white rounded-md">{{school.sub}}</sup>
                 <dl class="font-normal lg:hidden">
                   <dt class="sr-only">School name</dt>
                   <dd class="mt-1 truncate text-amber-700">{{ school.date }}</dd>
@@ -48,7 +48,7 @@
   <script setup>
   const schools = [
     { school_name: 'STI College Fairview', date: '2018 - 2023', address: '20-d Regalado Avenue, Corner Bronx, Quezon City, 651-8511 Metro Manila', course: 'Bachelor of Science in Information Technology', finish: 'Finished' },
-    { school_name: 'STI College Fairview', date: '2016 - 2018', address: '20-d Regalado Avenue, Corner Bronx, Quezon City, 651-8511 Metro Manila', course: 'IT in Mobile App and Web Development', finish: 'Finished' },
+    { school_name: 'STI College Fairview', sub: 'Senior High', date: '2016 - 2018', address: '20-d Regalado Avenue, Corner Bronx, Quezon City, 651-8511 Metro Manila', course: 'IT in Mobile App and Web Development', finish: 'Finished' },
     { school_name: 'Bagong Silangan High School', date: '2015 - 2016', address: 'J. P. Rizal, Quezon City, Metro Manila', course: 'Information and communications technology', finish: 'Finished' },
     { school_name: 'Bagong Silangan Elementary School', date: '2008 - 2015', address: '1119 Gen. Villamor, St, Quezon City, Rizal', course: 'Elementary', finish: 'Finished' },
     // More people...

@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="px-2 rounded-md flex space-x-8 items-center bg-[url('https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg')] bg-cover">
-            <img src="../assets/perpetual.png" class="h-48 rounded-md drop-shadow-sm rotate-3">
+            <img src="../assets/perpetual.png" class=" h-56 rounded-md drop-shadow-sm rotate-3">
             <div class="space-y-2">
                 <div class="space-x-2">
                     <div class="bg-gradient-to-r from-slate-700 to-gray-800 rounded-sm shadow-md px-2 inline-block">
@@ -35,8 +35,7 @@
                    <small class="bg-gradient-to-r from-amber-500 to-yellow-600 px-1.5 rounded-md text-gray-800 font-semibold">Thesis</small>
                 </div>
                 <p class="text-sm max-w-2xl text-amber-100">
-                    As an OJT at Gurutto Manila, I serve as a skilled full-stack developer. My primary responsibilities include creating captivating front-end websites for WordPress and developing robust back-end solutions using Laravel. I take pride in meticulously styling each page to ensure an exceptional user experience. Moreover, I actively contribute to the creation of multi-site websites, encompassing e-commerce platforms and content management systems. Working in this dynamic environment has honed my expertise and allowed me to make meaningful contributions to the team.
-                </p>
+                    In my thesis, we developed an e-learning management system called "Perpetual Portal." I served as the programmer in our thesis project, while my colleague conducted research on the school. Our system encompasses various features such as social media integration, library book management, and chat functionality. It bears resemblance to the STI ELMS portal.                 </p>
             </div>
         </div>
         <div class="px-2 py-4 rounded-md flex space-x-8 items-center bg-[url('https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg')] bg-cover">

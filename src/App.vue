@@ -6,6 +6,7 @@ import EducationList from './components/EducationList.vue'
 import TechnicalSkill from './components/TechnicalSkill.vue'
 import Experience from './components/Experience.vue'
 import { ref } from 'vue'
+import WorkStation from './components/WorkStation.vue'
 const isOpen = ref(false)
 </script>
 <template>
@@ -316,18 +317,7 @@ const isOpen = ref(false)
             </TabPanel>
             <!-- Workstation -->
             <TabPanel>
-              <div
-                class="bg-gradient-to-r from-slate-800 to-slate-700 flex justify-center items-center py-8 rounded-md"
-              >
-                <div>
-                  <div class="flex justify-center">
-                    <CogIcon class="h-16 w-16 text-gray-500 animate-spin" />
-                  </div>
-                  <h1 class="font-semibold text-3xl text-gray-500 font-figree">
-                    Under Development
-                  </h1>
-                </div>
-              </div>
+              <WorkStation />
             </TabPanel>
             <!-- Certfi & Projects -->
             <TabPanel>

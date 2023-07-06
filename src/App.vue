@@ -11,8 +11,8 @@ const isOpen = ref(false)
 </script>
 <template>
   <!-- <div class="bg-gray-100 h-screen bg-gradient-to-r from-gray-100 to-slate-100"> -->
-  <!-- <div class="bg-[url('src/assets/desktop.jpg')]"> -->
-  <div class="bg-[url('desktop-34d5cee8.jpg')]">
+  <div class="bg-[url('src/assets/desktop.jpg')]">
+  <!-- <div class="bg-[url('desktop-34d5cee8.jpg')]"> -->
     <img src="./assets/desktop.jpg" class="saturate-50 h-1/2 drop-shadow-md sr-only"/>
 
     <TabGroup :defaultIndex="0">

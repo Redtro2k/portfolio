@@ -48,7 +48,7 @@ const isOpen = ref(false)
                 Objective
               </button>
             </Tab>
-            <Tab as="template" v-slot="{ selected }">
+            <!-- <Tab as="template" v-slot="{ selected }">
               <button
                 :class="{
                   'font-bold text-emerald-300 border-b-2 border-emerald-300': selected,
@@ -58,7 +58,7 @@ const isOpen = ref(false)
               >
                 Education
               </button>
-            </Tab>
+            </Tab> -->
             <Tab as="template" v-slot="{ selected }">
               <button
                 :class="{
@@ -92,7 +92,7 @@ const isOpen = ref(false)
                 Workstation
               </button>
             </Tab>
-            <Tab as="template" v-slot="{ selected }">
+            <!-- <Tab as="template" v-slot="{ selected }">
               <button
                 :class="{
                   'font-bold text-emerald-300 border-b-2 border-emerald-300': selected,
@@ -113,7 +113,7 @@ const isOpen = ref(false)
               >
                 Updates
               </button>
-            </Tab>
+            </Tab> -->
           </TabList>
         </div>
 
@@ -123,7 +123,7 @@ const isOpen = ref(false)
             <!-- Home -->
             <TabPanel>
               <div class="flex items-center bg-gradient-to-r from-indigo-500 via-cyran-500 to-sky-500 rounded-full mt-24">
-                <img src="./assets/images.png" class="saturate-50 lx:h-[30rem] 2xl:h-xl drop-shadow-md" alt="" />
+                <img src="./assets/darwin.png" class="saturate-50 lx:h-[rem] 2xl:h-xl drop-shadow-md" alt="" />
                 <div class="mx-4 mt-14 max-w-md text-left font-belanosima space-y-2">
                   <div class="border-t-8 w-32">
                     <h1 class="sr-only">Darwin llacuna</h1>
@@ -254,7 +254,7 @@ const isOpen = ref(false)
               </div>
             </TabPanel>
             <!-- Education -->
-            <TabPanel>
+            <!-- <TabPanel>
               <div class="flex space-x-8 items-start">
                 <div class="bg-amber-500 rounded-lg inline-block">
                   <img src="./assets/fairview.jpg" class="h-72 rounded-md shadow-md rotate-6"/>
@@ -282,10 +282,10 @@ const isOpen = ref(false)
                 </div>
               </div>
               <EducationList class="mt-8"/>
-            </TabPanel>
+            </TabPanel> -->
             <!-- Skill -->
             <TabPanel>
-              <h2 class="text-4xl font-figree text-gray-100 mb-4">Technical Skill <span class="text-xs bg-indigo-600 py-0.5 px-2 rounded-xl">most used <strong>Laravel</strong> and <strong>TailwindCSS</strong></span></h2>
+              <h2 class="text-4xl font-figree text-gray-100 mb-4">Technical Skill</h2>
               <TechnicalSkill/>
               <h1 class="text-4xl font-figree text-gray-100 my-4">Specialize Skill</h1>
               <div class="flex justify-between space-x-4">

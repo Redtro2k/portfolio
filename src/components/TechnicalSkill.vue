@@ -52,15 +52,6 @@
             <span class="font-extrabold font-figree text-sky-500 text-center">Advance</span>
           </div>
         </div>
-        <div class="bg-gray-50 py-2 inline-block border-b-4 border-gray-500 rounded-md">
-          <div class="flex justify-center">
-            <img src="https://optimizdba.com/wp-content/uploads/2018/07/1499955337microsoft-sql-server-logo-png-2-768x716.png" class="h-24 ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"/>
-          </div>
-          <div class="flex justify-center mt-2">
-            <ChevronDoubleUpIcon class="h-5 w-5 font-extrabold font-figree text-gray-600"/>
-            <span class="font-extrabold font-figree text-gray-500 text-center">Advance</span>
-          </div>
-        </div>
         <div class="bg-emerald-50 py-2 inline-block border-b-4 border-emerald-500 rounded-md">
           <div class="flex justify-center">
             <img src="https://th.bing.com/th/id/R.0e23481b805fa66eb9ff0c177ff27030?rik=00LN9yVT3nMAyw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2flogo-mongodb-png-mongodb-1600.png&ehk=YwJU48GqAzZ6V3Zlafc4pyilw%2biV5XBxEO7chpNV3M8%3d&risl=&pid=ImgRaw&r=0" class="h-24 ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"/>
@@ -122,15 +113,6 @@
           <div class="flex justify-center mt-2">
             <ChevronDoubleUpIcon class="h-5 w-5 font-extrabold font-figree text-green-600"/>
             <span class="font-extrabold font-figree text-green-500 text-center">Intermediate</span>
-          </div>
-        </div>
-        <div class="bg-sky-50 py-2 inline-block border-b-4 border-sky-500 rounded-md">
-          <div class="flex justify-center">
-            <img src="https://th.bing.com/th/id/R.2c09e302265c7a50d57b3b46a5376ea2?rik=zrI9tWnpiophGQ&riu=http%3a%2f%2fih0.redbubble.net%2fimage.127584817.4804%2fsticker%2c375x360.u2.png&ehk=mHnOi%2fKKVOn6rgtAXPykgUO30BlHCJB7cs2xgEr4NXw%3d&risl=&pid=ImgRaw&r=0" class="h-24 ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"/>
-          </div>
-          <div class="flex justify-center mt-2">
-            <ChevronDoubleUpIcon class="h-5 w-5 font-extrabold font-figree text-sky-600"/>
-            <span class="font-extrabold font-figree text-sky-500 text-center">Beginner</span>
           </div>
         </div>
         <div class="bg-slate-50 py-2 inline-block border-b-4 border-slate-500 rounded-md">

@@ -11,6 +11,9 @@
                 <dd class="text-sm text-gray-100">16GB</dd>
                 <dt  class="font-semibold text-teal-400">Graphics Card</dt>
                 <dd class="text-sm text-gray-100">GALAX GeForce® GTX 1660 Super (1-Click OC)</dd>
+                <dt  class="font-semibold text-teal-400">Internet</dt>
+                <dd class="text-sm text-gray-100">500mbps</dd>
+
             </dl>
         </div>
     </div>
